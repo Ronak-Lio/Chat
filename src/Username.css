@@ -1,0 +1,60 @@
+.username{
+    background-color: #4F8BE8;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center; 
+}
+
+.username_container{
+    flex-direction: column;
+    padding: 100px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.new_user{
+    display: flex;
+    padding : 10px;
+    flex-direction: column;
+    margin-bottom:50px;
+    border-bottom: 1px solid lightgray;
+}
+
+.new_user > h3 {
+    margin-bottom: 10px;
+}
+
+.new_user > input {
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.old_user {
+    display: flex;
+    padding : 10px;
+    flex-direction: column; 
+}
+
+.old_user > h3 {
+    margin-bottom: 10px;
+}
+
+.old_user > input {
+    height: 22px;
+    margin-bottom: 20px;
+}
+
+.new_user > button {
+    display: none;
+}
+
+.old_user > button {
+    display: none;
+}
+
+
+
+

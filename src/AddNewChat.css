@@ -1,0 +1,15 @@
+.addnewchat {
+  width: 100%;
+  z-index: 9999;
+  background-color: aqua;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.addnewchat > h1 {
+    margin-top: 20px;
+
+}
+
